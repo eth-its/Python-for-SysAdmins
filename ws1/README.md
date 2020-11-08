@@ -8,15 +8,25 @@
 
 ***
 
+## Was ist *Python*?
+
+*Python* ist eine Skriptsprache. Der Quellcode (File mit Endung *.py*) wird zur Laufzeit vom Python-Interpreter übersetzt (Endung *.pyc*) und ausgeführt.
+
+***
+
+## Python installieren
+
 Überprüfen, ob Python (in welcher Version) installiert ist:
 
 `python -V`
 
 Wir wollen mit Python 3 arbeiten. Andererseits wollen wir eine installierte Python-Version nicht überschreiben. Mit *pyenv* können wir neue Python-Versionen installieren und für jeden Verzeichnisbaum wählen, welche Python-Version gelten soll.
 
-## Installation von *pyenv*
+***
 
-### **Linux**
+### Installation von *pyenv*
+
+#### **Linux**
 
 ```
 curl https://pyenv.run | bash
@@ -38,7 +48,7 @@ cd path/to/dir
 pyenv local miniconda3-latest
 pyenv version
 ```
-### **Windows 10**
+#### **Windows 10**
 
 Voraussetzung: `git` muss auf Rechner installiert sein (Test mit `git --version`).
 
@@ -47,10 +57,13 @@ Powershell öffnen und folgenden Befehl aufrufen:
 git clone https://github.com/pyenv-win/pyenv-win.git $HOME/.pyenv
 ```
 
+***
 
-## Arbeiten mit *virtualenv*
+### Arbeiten mit *virtualenv*
 
 Python enthält die Basisfunktionalität, welcher für die Entwicklung von Programmen benötigt wird. Das Python-Ökosystem bietet mächtige Funktionalität für spezifische Zwecke an (z.B. Statistik, Data Science, Machine Learning etc.). Solche Funktionalität kann mit `pip install` installiert werden.
+
+*Hinweis*: Mit `pip list` kann die Liste der Python-Module angezeigt werden, welche für in der aktuellen Python-Umgebung installiert ist.
 
 Mit *virtualenv* können wir für jedes Python-Projekt eigene Funktionalität aus dem Ökosystem installieren. Auf diese Weise können wir sicherstellen, dass sich die installierten Module nicht gegenseitig in die Quere kommen.
 
@@ -58,7 +71,7 @@ Mit *virtualenv* können wir für jedes Python-Projekt eigene Funktionalität au
 
 `pip install virtualenv`
 
-### **Linux**
+#### **Linux**
 
 Nun kann in einem Verzeichnis *py4sysadmins* eine massgeschneiderte Python-Umgebung erzeugt werden:
 ```
@@ -74,9 +87,8 @@ cd ..
 rm -rf py4sysadmins
 ```
 Wenn das Projektverzeichnis gelöscht wird, ist das System in den Originalzustand zurück versetzt.   
-*Hinweis*: Die Rückgabe auf `pip list` zeigt, dass die aktuelle Python-Umgebung frisch ist und beliebig gefüllt werden kann.
 
-### **Windows 10**
+#### **Windows 10**
 
 In Powershell im Zielverzeichnis aufrufen:
 ```
