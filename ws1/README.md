@@ -105,3 +105,17 @@ rm py4sysadmins
 ```
 
 **Bem.**: Eventuell wird beim Aktivieren der virtuellen Umgebung (`.\Scripts\activate`) ein Fehler angezeigt, welcher auf fehlende Rechte in der Powershell hinweist. Das kann korrigiert werden, indem in einer Powershell mit Administratoren-Rechten der Befehl `Set-ExecutionPolicy Remotesigned` ausgeführt wird.
+
+***
+
+## *Entwicklungsumgebungen für Python:*   
+
+* Interactive Shell: Aufruf mit `python`, Beenden mit `exit()`.
+* Idle
+* VS Code mit Python Extensions
+
+***
+
+## Einführung in Python:
+
+Jupyter Notebook *Sprachelemente* auf https://sis-jupyterhub.ethz.ch/user/guest00/lab?
