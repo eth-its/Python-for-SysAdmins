@@ -2,30 +2,38 @@
 
 ## developing environments
 
-### Visual Code
+**most recommended: Visual Code**
 
 
+## CLI and interaction with a REST API: the ethz-iam-webservice
 
-## creating command-line scripts
+### creating command-line scripts
 
-### using click
+**the click module**
 
-### alternatives to click
+**subcommands**
+
+**passwords and environment variables**
+
+
+### interation with the REST API
+
+**http-requests: rest module**
+
+**basic authentication**
 
 
 ## debugging programs: the Python debugger
 
-### setting breakpoints
+**setting breakpoints**
 
-### using the debugger in visual code
+**using the debugger in visual code**
 
-### what is inside an object?
+**what is inside an object?**
 
 - type(object)
 - dir()
 - keys()
 
-- Skripte mit CLI-Argumenten (argparse, click)
-- Dokumentation
-- Entwicklungsumgebungen für Python
-- Debuggen von Python-Programmen
+## documentation
+
