@@ -1,0 +1,27 @@
+Blöcke
+Funktionen:
+def
+pass
+Parameter
+
+Datentypen:
+String -> unicode
+Dicts
+list concatenation
+
+Operationen
+
+Sprachelemente:
+Loops: 
+for, while, until
+
+if: ... elif: ... else: ...
+
+try: ... except Error: ...
+
+===
+28 Jupyter Notebook Tips, Tricks, and Shortcuts: 
+https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/
+
+===
+97 - 122

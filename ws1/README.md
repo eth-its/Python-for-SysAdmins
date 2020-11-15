@@ -90,6 +90,8 @@ Wenn das Projektverzeichnis gelöscht wird, ist das System in den Originalzustan
 
 #### **Windows 10**
 
+Python-Version von https://www.python.org/downloads/ hinunterladen und installiere.
+
 In Powershell im Zielverzeichnis aufrufen:
 ```
 python -m venv py4sysadmins
@@ -111,11 +113,12 @@ rm py4sysadmins
 ## *Entwicklungsumgebungen für Python:*   
 
 * Interactive Shell: Aufruf mit `python`, Beenden mit `exit()`.
-* Idle
-* VS Code mit Python Extensions
+* Idle: einfacher Editor mit Code-Vervollständigung
+* VS Code mit Python Extensions: Entwicklung von Python-Programmen.
+* Jupyter Notebooks: für Präsentationen
 
 ***
 
 ## Einführung in Python:
 
-Jupyter Notebook *Sprachelemente* auf https://sis-jupyterhub.ethz.ch/user/guest00/lab?
+Jupyter Notebook *Sprachelemente* auf https://sis-jupyterhub.ethz.ch/user/guest00/notebooks/Python4SysAdmins/ws1/Sprachelemente.ipynb
