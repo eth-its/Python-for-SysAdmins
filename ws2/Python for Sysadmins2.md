@@ -49,6 +49,8 @@ Out[14]: 'file:///usr/local'
 
 **reading CSV files: csv, pandas**
 
+**reading very large files: mmap**
+
 **compare files: filecmp**
 
 - os.stat()
