@@ -45,9 +45,27 @@ Out[14]: 'file:///usr/local'
 
 **watch out for text-encoding**
 
-**reading JSON files**
+**handling JSON files: json**
 
-**reading CSV files: csv, pandas**
+**handling CSV files: csv and pandas**
+
+- pandas is not standard module, needs to be installed first
+
+**handling XML files: BeautifulSoup 4**
+
+`pip install beautifulsoup4`
+
+Easy walkthrough:
+
+```
+soup = BeautifulSoup(unicode_string, 'lxml-xml')
+node = soup.find('element')
+node.children
+node.parents
+node.attrs.get('attribute_name')
+node.name
+```
+
 
 **reading very large files: mmap**
 
