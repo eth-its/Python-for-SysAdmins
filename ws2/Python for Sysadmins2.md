@@ -2,22 +2,13 @@
 
 ## Interaction with the file system
 
-### open and close files 
+### utilities to look around
 
-### binary, text, encoding
+**most often used: the os module**
 
-### JSON files
+**file path as object: the pathlib module**
 
-### CSV files, pandas
-
-- pathlib instead of os.path: http://proquest.safaribooksonline.com/book/programming/python/9780134291154/chapter-6dot-the-file-system/ch06lev1sec2_html?uicode=ETH
-- os.listdir()
-- glob
-- fnmatch
-- os.stat()
-- linecache (large files)
-- tempfile
-- filecmp
+```
 In [5]: usr = pathlib.PurePosixPath('/usr')                                                                                                                                                                                                                 
 
 In [6]: usr                                                                                                                                                                                                                                                 
@@ -36,11 +27,42 @@ Out[13]: '/usr/local'
 
 In [14]: usr_local.as_uri()                                                                                                                                                                                                                                 
 Out[14]: 'file:///usr/local'
+```
+
+**match file patterns: glob**
+
+**match file patterns: fnmatch**
+
+### copying and moving files: shutils
 
 
+### open and close files correctly
 
+**with statement**
 
+- show problems when not using it
+- own with statement
 
+**watch out for text-encoding**
+
+**reading JSON files**
+
+**reading CSV files: csv, pandas**
+
+**compare files: filecmp**
+
+- os.stat()
+- linecache (large files)
+
+### writing files
+
+**temporary files: tempfile**
+
+### comparing files and directories
+
+**filecmp**
+
+**dircmp**
 
 
 ## Interaction with the shell
@@ -77,7 +99,7 @@ https://docs.python-guide.org/scenarios/admin/
 Psutil is an interface to different system information (e.g. CPU, memory, disks, network, users, and processes).
 https://github.com/giampaolo/psutil/
 
-### Ansible
+
 
 
 
