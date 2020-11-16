@@ -18,7 +18,10 @@
 
 ### interation with the REST API
 
-**http-requests: rest module**
+**easy: http-requests: the request module**
+
+**Asynchronous calls: httpx**
+https://www.python-httpx.org
 
 **basic authentication**
 
