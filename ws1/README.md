@@ -3,7 +3,7 @@
 *Einführung in Python: Sprachelemente*
 
 - Python Entwicklungs- und Laufzeitumgebung   
-- Sprachelemente: Typen (z.B. Listen, Dicts), Bedingungen, Schlaufen etc.   
+- Sprachelemente: Typen (z.B. Listen, Dicts), Bedingungen, Schleifen etc.   
 - Python-Module
 
 ***
@@ -50,12 +50,9 @@ pyenv version
 ```
 #### **Windows 10**
 
-Voraussetzung: `git` muss auf Rechner installiert sein (Test mit `git --version`).
+*Hinweis*: pyenv funktioniert nicht auf Windows.
 
-Powershell öffnen und folgenden Befehl aufrufen:
-```
-git clone https://github.com/pyenv-win/pyenv-win.git $HOME/.pyenv
-```
+Statt dessen: normale Python-Installation von https://www.python.org/downloads/ hinunterladen und installieren.
 
 ***
 
@@ -90,8 +87,6 @@ Wenn das Projektverzeichnis gelöscht wird, ist das System in den Originalzustan
 
 #### **Windows 10**
 
-Python-Version von https://www.python.org/downloads/ hinunterladen und installiere.
-
 In Powershell im Zielverzeichnis aufrufen:
 ```
 python -m venv py4sysadmins
@@ -121,4 +116,8 @@ rm py4sysadmins
 
 ## Einführung in Python:
 
-Jupyter Notebook *Sprachelemente* auf https://sis-jupyterhub.ethz.ch/user/guest00/notebooks/Python4SysAdmins/ws1/Sprachelemente.ipynb
+Auf dem Jupyter-Server https://sis-jupyterhub.ethz.ch/ sind folgende Notebooks vorbereitet:
+
+- Sprachelemente
+- Kontrollstrukturen
+- Module
