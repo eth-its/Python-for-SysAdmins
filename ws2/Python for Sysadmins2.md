@@ -5,7 +5,6 @@
 ### utilities to look around
 
 **most often used: the os module**
-
 **file path as object: the pathlib module**
 
 ```
