@@ -1,8 +1,44 @@
 # Python for Sysadmins (3/4)
 
+
+
+### writing files
+
+**temporary files: tempfile**
+
+### comparing files and directories
+
+**filecmp**
+
+**dircmp**
+
+
+
+
+
+## useful modules
+
+https://docs.python-guide.org/scenarios/admin/
+
+### atexit: execute when things fail
+### sqlite3
+
+
+
+
+
+
+
 ## developing environments
 
 **most recommended: Visual Code**
+
+
+
+
+## more advanced shell commands
+
+**pipe output to next command**
 
 
 ## CLI and interaction with a REST API: the ethz-iam-webservice
@@ -23,7 +59,8 @@
 **Asynchronous calls: httpx**
 https://www.python-httpx.org
 
-**basic authentication**
+**handling errors**
+
 
 
 ## debugging programs: the Python debugger
