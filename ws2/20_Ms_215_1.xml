@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="semper_edition_schema_prov.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE TEI SYSTEM "Zeichen.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Gottfried Semper: Der Stil. Kritische und kommentierte Ausgabe: Autograph: <label>gta Ms 215</label>, <locus>fols. 1r</locus></title>
+				<author>Semper, Gottfried (1803-1879)</author>
+				<funder>Schweizer Nationalfond</funder>
+				<sponsor>Università della Svizzera italiana, Eidgenössische Technische Hochschule</sponsor>
+				<principal> Prof. Dr. Philip Ursprung (ETH), Prof. Dr. Sonja Hildebrand (USI)</principal>
+			</titleStmt>
+			<editionStmt>
+				<edition>transcription and encoding</edition>
+				<respStmt>
+    <resp>transcribed by</resp>
+    <name>Carmen Aus der Au</name>
+</respStmt>
+<respStmt>
+    <resp>converted to TEI-conformant markup</resp>
+    <name>Elena Chestnova</name>
+</respStmt>
+			</editionStmt>
+			<publicationStmt>
+				<authority>Semper-Edition SNF Projekt</authority>
+				<pubPlace>Zürich</pubPlace>
+				<date>2020</date>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Zürich</settlement>
+						<institution>Eidgenössische Technische Hochschule</institution>
+						<repository>gta Archiv</repository>
+						<idno>20-Ms-215</idno>
+					</msIdentifier>
+					
+					<msContents><textLang xml:lang="de">Deutsch</textLang><msItem n="1"><locus>fols. 1r</locus><p xml:id="p.7bw5LJ">Teilmanuskript zum Stil von <name>Gottfried Semper</name></p></msItem></msContents>
+					<physDesc>
+						<objectDesc form="manuscript"> 
+							<supportDesc><support>Bräunliches Papier, dunkelgraue Tinte, grauer Bleistift.</support>
+								<extent>124 Folien, 142 Seiten beschrieben<dimensions scope="all" type="leaf" unit="cm"><height>22.4</height><width>18.0</width></dimensions></extent>
+								<foliation>Paginierung auf oben links nicht umkreist in Tusche oder Blei von <rs type="person" ref="personen.xml#GS">Gottfried Semper</rs>, in Blei umkreist von Wolfgang Herrmann</foliation>
+								<collation><p xml:id="p.LCPAM2">gefaltete Blätter: fol. 7 und 8, fol. 11 und 12, fol. 13 und 14, fol. 16 und 17, fol. 21 und 22, fol. 23 und 24, fol. 27 und 28, fol. 36 und 37, fol. 38 und 39, fol. 40 und 41, fol. 47 und 48, fol. 52 und 53, fol. 64 und 65, fol. 66 und 67, fol. 68 und 69, fol. 70 und 71, fol. 72 und 73, fol. 74 und 75, fol. 76 und 77, fol. 78 und 79, fol. 80 und 81, fol. 82 und 83, fol. 84 und 85, fol. 86 und 87, fol. 88 und 89, fol. 90 und 91, fol. 92 und 95, fol. 93 und 94, fol. 100 und 101, fol. 102 und 103, fol. 104 und 105, fol. 107 und 108, fol. 109 und 110, fol. 111 und 112, fol. 113 und 114, fol. 115 und 116, fol. 119 und 120. Alle anderen Blätter sind ungefaltet.</p></collation>
+								<condition><p xml:id="p.ObLw4u">Schwarze Tintenkleckse</p></condition></supportDesc>
+							<layoutDesc> <layout columns="2"><p xml:id="p.FfPT9l">Blätter sind zweispaltig auf recto beschrieben. Text in der Aussenspalte, Korrekturen, Anmerkungen und Ergänzungen in der Innenspalte. Fols. 3v, 5v, 9v, 10v, 11v, 19v, 42v, 43v, 47v, 48v, 50v, 60v, 61v, 64v, 65v, 91v, 92v, 94v, 97v, 116v, 120v sind auf verso beschrieben.</p></layout>
+							</layoutDesc>
+						</objectDesc>
+						<handDesc hands="2"><summary>Von Gottfried Semper in Tinte und Blei geschrieben und in Blei und Tusche korrigiert.</summary>
+							<handNote xml:id="hGS"><p xml:id="p.Mmp3XQ">Text in Blei und Tinte von <rs type="person" ref="personen.xml#GS">Gottfried Semper</rs>.</p></handNote>
+							<handNote xml:id="hWH"><p xml:id="p.SMwdJg">Paginierung in BLei, umkreist, von <rs type="person" ref="personen.xml#hWH">Wolfgang Herrmann.</rs></p></handNote>
+						</handDesc>
+						<accMat>keine</accMat>
+					</physDesc>
+				</msDesc>
+			</sourceDesc></fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<p xml:id="p.HyUqZV">Den von Gottfried Semper geschriebenen Text ist transkribiert. Orthographische Besonderheiten der Semperschen Zeit ohne Kommentar transkribiert.</p>
+			</editorialDecl>
+</encodingDesc>
+		<profileDesc>
+			<creation>
+				<date from="1856" to="1860">1856–1860</date>
+				<name type="place">Zürich</name>
+			</creation>
+			<langUsage>
+				<language ident="de">Deutsch</language>
+			</langUsage>
+<textClass>
+	<classCode scheme="internal"><link target="Stil_Bd.1_Aufl_I_1860a_sV.xml"/></classCode>
+    <catRef target="#auto #stil_1" scheme="classification.xml"/>
+</textClass>
+		</profileDesc>
+		
+	</teiHeader>
+	<facsimile xml:id="facs_1">
+        <surface ulx="0" uly="0" lrx="4635" lry="4415">
+            <graphic url="20_Ms_215_1.jpg" width="4635px" height="4415px"/>
+			<zone points="678,504 1198,504 1198,778 678,778" rendition="TextRegion" subtype="page-number" xml:id="facs_1_r1"/>
+			<zone points="2039,468 2984,468 2984,770 2039,770" rendition="TextRegion" subtype="heading" xml:id="facs_1_r2"/>
+			<zone points="1877,774 3222,774 3222,2064 1877,2064" rendition="TextRegion" subtype="paragraph" xml:id="facs_1_r3"/>
+			<zone points="1837,2032 3266,2032 3266,3326 1837,3326 1621,2828 1621,2626" rendition="TextRegion" subtype="paragraph" xml:id="facs_1_r4"/>
+			<zone points="1797,3330 3302,3330 3302,3922 1797,3922 1000,3920 1000,3610" rendition="TextRegion" subtype="paragraph" xml:id="facs_1_r5"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<pb facs="#facs_1" n="1" xml:id="F20_Ms_215_1r"/>
+			<p facs="#facs_1_r1" xml:id="p.eXeUKK">
+				<lb facs="#facs_1_r1l1" n="N001"/><handShift new="#hGS" medium="STinte"/>1. <handShift new="#hWH" medium="Blei"/><hi rend="Kreis">1</hi><handShift new="#hGS" medium="STinte" script="Kurrent"/>
+			</p>
+			<p facs="#facs_1_r2" xml:id="p.2aTWpd" next="#p.rmlTDR"> 
+				<lb facs="#facs_1_r2l1" n="N001"/><handShift script="Latein"/><hi rend="unterstr">Vorwort.</hi><handShift script="Kurrent"/>
+			</p>
+			<p facs="#facs_1_r3" xml:id="p.rmlTDR" prev="#p.2aTWpd" next="#p.NkGuWc">
+				<lb facs="#facs_1_r3l1" n="N001"/>Der nächtliche Himmel zeigt 
+				<lb facs="#facs_1_r3l2" n="N002"/>neben den glanzvollen Wundern 
+				<lb facs="#facs_1_r3l3" n="N003"/>der Gestirne mattschimmernde 
+				<lb facs="#facs_1_r3l4" n="N004"/>Nebelstellen, – entweder 
+				<lb facs="#facs_1_r3l5" n="N005"/>alte, erstorbene, im All 
+				<lb facs="#facs_1_r3l6" n="N006"/>zerstobene <del rend="durchstr">ihr</del> Systeme 
+				<lb facs="#facs_1_r3l7" n="N007"/>oder erst um einen Kern 
+				<lb facs="#facs_1_r3l8" n="N008"/>sich gestaltender Weltdunst, 
+				<lb facs="#facs_1_r3l9" n="N009"/>oder ein Zustand zwischen 
+				<lb facs="#facs_1_r3l10" n="N010"/>Zerstörung und Neuge-
+				<lb facs="#facs_1_r3l11" n="N011" type="hyph"/>staltung. 
+			</p>
+			<p facs="#facs_1_r4" xml:id="p.NkGuWc" prev="#p.rmlTDR" next="#p.J0CTn4">
+				<lb facs="#facs_1_r4l1" n="N001"/>Sie sind ein passendes 
+				<lb facs="#facs_1_r4l2" n="N002"/>Analogon für ähnliche Er-
+				<lb facs="#facs_1_r4l2" n="N002" type="hyph"/>scheinungen am Gesichtskreise
+				<lb facs="#facs_1_r4l4" n="N004"/>der Kunstgeschichte, <del rend="durchstr STinte" xml:id="del.guINjJ">Zustände</del> 
+				<lb facs="#facs_1_r4l5" n="N005"/><del rend="durchstr STinte" xml:id="del.4ZBfZ0">bezeichnend</del> <del rend="durchstr STinte" xml:id="del.3nalbf">der Auflösung</del> 
+				<lb facs="#facs_1_r4l6" n="N006"/><del rend="durchstr STinte" xml:id="del.xzEQqy">oder den Werdemoment</del>
+				<lb facs="#facs_1_r4l7" n="N007"/><add place="vor_Zeile" rend="STinte" xml:id="add.xerNco">auf</add> Zustände des Uebergangs 
+				<lb facs="#facs_1_r4l8" n="N008"/>einer Kunstwelt in das 
+				<lb facs="#facs_1_r4l9" n="N009"/>Gestaltlose und gleichzeitig 
+				<lb facs="#facs_1_r4l10" n="N010"/>auf die Phase sich vorbereiten-
+				<lb facs="#facs_1_r4l11" n="N011" type="hyph"/>der Neugestaltung einer solchen 
+				<lb facs="#facs_1_r4l12" n="N012"/>hinweisend. 
+			</p>
+			<p facs="#facs_1_r5" xml:id="p.J0CTn4" prev="#p.NkGuWc" next="20_Ms_215_2.xml#p.oMPAdA">
+				<lb facs="#facs_1_r5l1" n="N001"/>Diese Erscheinungen des Ver-
+				<lb facs="#facs_1_r5l2" n="N002" type="hyph"/>falls der Künste und der ge-
+				<lb facs="#facs_1_r5l3" n="N003" type="hyph"/>heimnissvollen Phönixgeburt 
+				<lb facs="#facs_1_r5l4" n="N004"/>neue<del rend="durchstr STinte" xml:id="del.8JHa22">r</del><add place="oberhalb" rend="STinte" xml:id="add.Wp1B1c">n</add> <del rend="durchstr STinte" xml:id="del.cO2mr9">Momente der Kunst</del> 
+				<lb facs="#facs_1_r5l5" n="N005"/><add place="vor_Zeile" rend="STinte" xml:id="add.RoiS5d">Kunstlebens</add> aus dem Vernichtungsprocesse 
+			</p>
+			<join target="#p.J0CTn4 20_Ms_215_2.xml#p.oMPAdA"/>
+		</body>
+	</text>
+</TEI>
