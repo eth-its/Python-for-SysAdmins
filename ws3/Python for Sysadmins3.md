@@ -1,21 +1,6 @@
 # Python for Sysadmins (3/4)
 
 
-
-### writing files
-
-**temporary files: tempfile**
-
-### comparing files and directories
-
-**filecmp**
-
-**dircmp**
-
-
-
-
-
 ## useful modules
 
 https://docs.python-guide.org/scenarios/admin/
@@ -27,11 +12,14 @@ https://docs.python-guide.org/scenarios/admin/
 
 
 
-
-
 ## developing environments
 
 **most recommended: Visual Code**
+
+- Jupyter Lab vs. Classic
+- IPython
+
+
 
 
 
@@ -50,6 +38,7 @@ https://docs.python-guide.org/scenarios/admin/
 **subcommands**
 
 **passwords and environment variables**
+
 
 
 ### interation with the REST API
