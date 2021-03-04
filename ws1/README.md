@@ -27,13 +27,14 @@ Wir wollen mit Python 3 arbeiten. Andererseits wollen wir eine installierte Pyth
 ### Installation von *pyenv*
 
 #### **Linux**
+(**Hinweis:** für die folgenden Anweisungen muss *bash* verwendet werden)
 
 ```
 curl https://pyenv.run | bash
 echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc
 echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bashrc
 echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n  eval "$(pyenv init -)"\nfi' >> ~/.bashrc
-exec "$SHELL"
+exec bash
 ```
 Nun kann Python installiert werden:
 ```
