@@ -32,3 +32,9 @@ class Deck:
         if len(self.cards) == 0:
             raise ValueError("All cards have been dealt")
         return self.cards.pop()
+
+def main():
+    print(Deck())
+
+if __name__ == "__main__":
+    main()
