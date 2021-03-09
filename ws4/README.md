@@ -2,7 +2,7 @@
 
 *Fortgeschrittene Arbeiten mit Python für SysAdmins:*
 
-- Python-Objekte   
-- Unit-Tests   
-- Packaging (PIP)   
+- [Python-Objekte](./Python-Objekte.ipynb)
+- [Unit-Tests](./Unit-Tests.ipynb)
+- [Python-Code packetieren](./Python-Code-paketieren.ipynb)   
 - Code-Clinic   

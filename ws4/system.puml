@@ -1,0 +1,41 @@
+@startuml
+
+object "my_system: System" as my_system {
+
+}
+
+object "linux1: Server" as linux1 {
+    id = 1
+    os = "Linux"
+}
+
+object "linux2: Server" as linux2 {
+    id = 2
+    os = "Linux"
+}
+
+object "windows: Server" as windows {
+    id = 3
+    os = "Windows"
+}
+
+object "apache: Software" as apache {
+    name = "Apache"
+}
+object "ff: Software" as ff {
+    name = "FireFox"
+}
+object "outlook: Software" as outlook {
+    name = "Outlook"
+}
+
+my_system o-- "addServer" linux1
+my_system o-- "addServer" linux2
+my_system o-- "addServer" windows
+
+linux1 o-- "install" apache
+linux2 o-- "install" apache
+windows o-- "install" outlook
+windows o-- "install" ff
+
+@enduml
