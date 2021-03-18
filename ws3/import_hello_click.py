@@ -1,3 +1,3 @@
 #!/usr/bin/env python3
 
-import hello_click_1
+import hello_click

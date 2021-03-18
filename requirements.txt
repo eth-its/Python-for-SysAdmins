@@ -1,0 +1,5 @@
+pyyaml
+pytest
+beautifulsoup4
+pandas
+requests
