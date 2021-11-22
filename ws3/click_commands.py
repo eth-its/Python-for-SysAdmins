@@ -3,24 +3,26 @@
 import click
 
 @click.group()
-def hello():
-    """Simple program that shows the subcommands"""
+def do_something():
+    """Simple program to do something"""
 
-    print('here in hello')
+    # this will only executed (fired) if any of the commands below
+    # are executed as well
+    click.echo('I am doing something...')
     
     
-@hello.command()
-def sub():
+@do_something.command()
+def sing():
     
-    print('here in sub')
+    click.echo('I am singing!')
     
     
-@hello.command()
-def sub2():
+@do_something.command()
+def dance():
     
-    print('here in sub2')
+    click.echo('I am dancing!')
     
     
     
 if __name__ == '__main__':
-    hello()
+    do_something()
