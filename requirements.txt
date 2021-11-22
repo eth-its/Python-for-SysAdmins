@@ -1,5 +1,7 @@
 pyyaml
 pytest
 beautifulsoup4
+lxml
 pandas
 requests
+pybis
