@@ -5,3 +5,5 @@ lxml
 pandas
 requests
 pybis
+connexion
+gunicorn
