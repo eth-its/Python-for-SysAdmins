@@ -1,0 +1,12 @@
+---
+- hosts: localhost
+
+  tasks:
+    - name: Assemble config file
+      assemble_config:
+        template: "example.json"
+        dest: "assembled.json"
+        values:
+          user: "chucknorris"
+          password: "Chuck Norris does not need a password, passwords
+  need him!"

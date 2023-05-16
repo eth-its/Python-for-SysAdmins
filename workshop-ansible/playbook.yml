@@ -1,0 +1,14 @@
+---
+- hosts: localhost
+  tasks:
+    - name: Collect env variables
+      ansible.builtin.set_fact:
+        env:
+          PYTHONPATH: "/var/service/lib/python/site_packages"
+          PATH: "/var/service/bin"
+          # ...
+
+    - name: Write a .env file
+      ansible.builtin.copy:
+        content: "{{ env | to_dot_env }}"
+        dest: "/tmp/.env"  # Just to be able to test against localhost

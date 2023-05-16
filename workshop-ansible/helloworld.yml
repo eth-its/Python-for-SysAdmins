@@ -1,0 +1,10 @@
+---
+- hosts: localhost
+
+  tasks:
+    - name: Test that my hello_world module works
+      hello_world:
+      register: result
+
+    - debug:
+        var: result
