@@ -1,0 +1,83 @@
+[notification]
+ticket_mail = "ticket_system@example.org"
+contact_form_recipient = "contact_form@example.org"
+
+[oidc]
+# Keycloak -> Clients: client_id corresponds to the Client ID
+client_id = "portal"
+
+# Keycloak -> Clients -> portal -> Credentials. If you regenerate the secret, you need to update it here as well.
+client_secret = "client_secret"
+
+# in Keycloak, switch to the Realm settings tab and copy the URL from OpenID Endpoint Configuration
+config_url = "https://auth.example.org/auth/realms/example/.well-known/openid-configuration"
+
+login_redirect_url = "/"
+logout_redirect_url = "/"
+
+[oauth]
+# This project may act as OIDC provider (see https://en.wikipedia.org/wiki/OpenID)  
+issuer = "http://localhost:8000/auth/oauth"
+expiration_time_seconds = 3_600
+alg = "RS256"
+
+[oauth.jwt_key]
+public_path = "/app/jwt_tls/portal_jwt_public.pem"
+private_path = "/app/jwt_tls/portal_jwt_private.pem"
+
+[oauth.sts]
+duration_seconds = 3_600
+
+[user]
+default_namespace = "ch"
+
+[user.uid]
+# min and max for uidNumber
+min = 1_000_000
+max = 1_499_999
+
+[user.gid]
+# min and max for user gidNumber
+min = 1_000_000
+max = 1_499_999
+
+[user.local_username]
+min_length = 6
+max_length = 64
+
+[project.gid]
+# min and max for project gidNumber
+min = 1_500_000
+max = 1_999_999
+
+[email]
+# If you use an open-relay server, define its hostname here
+host = ""
+port = 25
+use_tls = true
+user = ""
+password = ""
+from_address = ""
+subject_prefix = "Portal: "
+
+[pgp]
+keyserver = "https://keys.openpgp.org/"
+end_relax = 1_706_745_600
+
+[session]
+expire_at_browser_close = false
+expire_seconds = 1_800
+
+[logging]
+# Django logging level (see https://docs.djangoproject.com/en/4.2/topics/logging/)
+# possible values: DEBUG, INFO, WARNING, ERROR, CRITICAL
+level = "INFO"
+
+[switch]
+auth_username = ""
+scim_api_affiliations_url = ""
+scim_api_username = ""
+scim_api_password = ""
+
+[flags]
+authorized_user = "auth_user"
