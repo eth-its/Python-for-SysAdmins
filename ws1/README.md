@@ -3,8 +3,10 @@
 *Einführung in Python: Sprachelemente*
 
 - Python Entwicklungs- und Laufzeitumgebung   
-- Sprachelemente: Typen (z.B. Listen, Dicts), Bedingungen, Schleifen etc.   
-- Python-Module
+- [Sprachelemente: Typen (z.B. Listen, Dicts) etc.](01-Sprachelemente.ipynb)
+- [Kontollstrukturen: Bedingungen, Schleifen, Funktionen etc.](02-Kontrollstrukturen.ipynb)
+- [Python-Module](03-Module.ipynb)
+- [Programmieren mit KI-Unterstützung: *GitHub Copilot*](Copilot.md)
 
 ***
 
