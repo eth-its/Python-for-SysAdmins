@@ -73,10 +73,10 @@ Mit *virtualenv* können wir für jedes Python-Projekt eigene Funktionalität au
 
 #### **Linux**
 
-Nun kann in einem Verzeichnis *py4sysadmins* eine massgeschneiderte Python-Umgebung erzeugt werden:
+Nun kann in einem Verzeichnis *py4sysadmins* eine massgeschneiderte Python-Umgebung erzeugt werden (Hinweis: unter Unständen muss statt *python* der Befehl *python3* eingegeben werden):
 ```
-virtualenv py4sysadmins
-cd py4sysadmins
+python -m venv py4sysadmins
+cd py4sysadmins 
 source bin/activate
 pip list
 pip install freegames
@@ -88,7 +88,7 @@ rm -rf py4sysadmins
 ```
 Wenn das Projektverzeichnis gelöscht wird, ist das System in den Originalzustand zurück versetzt.   
 
-#### **Windows 10**
+#### **Windows 11**
 
 In Powershell im Zielverzeichnis aufrufen:
 ```
