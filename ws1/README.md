@@ -124,3 +124,20 @@ Auf dem Jupyter-Server https://sis-jupyterhub.ethz.ch/ (Python-for-SysAdmins -> 
 - Sprachelemente
 - Kontrollstrukturen
 - Module
+
+## Webseiten mit umfangreichen Python-Übungen
+
+*Exercism.io: Python track*   
+https://exercism.org/tracks/python/exercises/
+
+*LeetCode*   
+https://leetcode.com/problemset/all/?language=Python
+
+*Kata Library: Python Practice*   
+https://www.codewars.com/kata/search/python?q=&order_by=rank_id%20asc
+
+*W3Schools: Python Exercises*   
+https://www.w3schools.com/python/python_exercises.asp
+
+*Practice Python*   
+https://www.practicepython.org/
