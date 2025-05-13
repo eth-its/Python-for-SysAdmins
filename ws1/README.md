@@ -119,7 +119,7 @@ rm py4sysadmins
 
 ## Einführung in Python:
 
-Auf dem Jupyter-Server https://sis-mlw.ethz.ch/ (Python-for-SysAdmins -> ws1) sind folgende Notebooks vorbereitet:
+Auf dem Jupyter-Server https://sis-jupyterhub.ethz.ch/ (Python-for-SysAdmins -> ws1) sind folgende Notebooks vorbereitet:
 
 - Sprachelemente
 - Kontrollstrukturen
